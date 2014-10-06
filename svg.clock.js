@@ -179,7 +179,7 @@ SVG.extend(SVG.Clock, {
     /* animate if duration is given */
     if (duration)
       this.seconds
-        .animate(duration, SVG.easing.elastic)
+        .animate(1000, '-')
         .rotate(deg, 50, 50)
     else
       this.seconds
